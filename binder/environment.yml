@@ -3,40 +3,30 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
-  - rasterio
-  - numpy
-  - scipy
-  - pandas
   - xarray
-  - matplotlib
   - dask
   - distributed
+  - dask-kubernetes
   - gcsfs
-  - s3fs
-  - scikit-image
-  - scikit-learn
-  - dask-ml
-  - bokeh
-  - pyviz/label/earthsim::holoviews
-  - pyviz/label/earthsim::panel
-  - geoviews
-  - hvplot
-  - rasterio
-  - geoviews
-  - datashader
-  - netcdf4
+  - intake::intake-xarray
   - zarr
+  - matplotlib
   - numcodecs
   - python-blosc
   - lz4
+  - nomkl
   - nbserverproxy
   - jupyter
   - jupyterlab=0.35
+  - jupyterlab_launcher
+  - jupyter_client
   - ipywidgets
-  - ipyleaflet
-  - dask-kubernetes
+  - graphviz
+  - nodejs
+  - scikit-image
+  - scikit-learn
+  - dask-ml
   - pip:
+    - kubernetes
     - graphviz
     - git+https://github.com/xgcm/xgcm.git
-    - git+https://github.com/pydata/xarray.git
-    - git+https://github.com/zarr-developers/zarr.git
