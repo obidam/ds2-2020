@@ -42,7 +42,7 @@ sources:
         description: Global EN4 time series
         driver: zarr
         args:
-            urlpath: 'gcs://argodata/gridded/EN.4.2.1.f.analysis.g10'
+            urlpath: 'gcs://argodata/gridded/EN.4.2.1.f.analysis.g10.zarr'
             storage_options:
                 project: 'argo-france'
                 token: anon
