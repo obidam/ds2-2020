@@ -3,32 +3,32 @@ plugins:
     - module: intake_xarray
 sources:
     argo_global_vertical_mean:
-        description: Global Argo profiles vertical mean temperature
-        driver: zarr
-        args:
-            urlpath: 'gcs://v/sdl/Global_Argo_VerticalMean_Temperature.zarr'
-            storage_options:
-                project: 'argo-france'
-                token: anon
-                access: read_only
+      description: Global Argo profiles vertical mean temperature
+      driver: zarr
+      args:
+        urlpath: 'gcs://opendata_bdo2020/Global_Argo_VerticalMean_Temperature.zarr'
+        storage_options:
+          project: 'alert-ground-261008'
+          token: anon
+          access: read_only
     argo_global_sdl:
       description: Global 0-2000m Standard Depth Level Argo profiles
       driver: zarr
       args:
-        urlpath: 'gcs://argodata/sdl/GLOBAL_ARGO_SDL2000'
+        urlpath: 'gcs://opendata_bdo2020/GLOBAL_ARGO_SDL2000'
         storage_options:
-          project: 'argo-france'
+          project: 'alert-ground-261008'
           token: anon
           access: read_only
     argo_global_homogeneous_sdl:
-        description: Global 0-1500m Standard Depth Level Argo profiles (homogeneously distributed in space)
-        driver: zarr
-        args:
-            urlpath: 'gcs://argodata/sdl/GLOB_HOMOGENEOUS_variables.zarr'
-            storage_options:
-                project: 'argo-france'
-                token: anon
-                access: read_only
+      description: Global 0-1500m Standard Depth Level Argo profiles (homogeneously distributed in space)
+      driver: zarr
+      args:
+        urlpath: 'gcs://opendata_bdo2020/GLOB_HOMOGENEOUS_variables.zarr'
+        storage_options:
+          project: 'alert-ground-261008'
+          token: anon
+          access: read_only
     isas15_temp_natl:
       description: North Atlantic ISAS15 temperature time series
       driver: zarr
