@@ -19,6 +19,7 @@ dependencies:
   - jupyterlab=0.35
   - jupyterlab_launcher
   - jupyter_client
+  - jupyter_server
   - ipywidgets
   - graphviz
   - nodejs
