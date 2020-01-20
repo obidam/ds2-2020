@@ -39,3 +39,19 @@ This dataset can be accessed this way:
     fs = gcsfs.GCSFileSystem(project="alert-ground-261008")
     gcsmap = fs.get_mapper("opendata_bdo2020/EN.4.2.1.f.analysis.g10.zarr")
     ds = xr.open_zarr(gcsmap)    
+
+## Projects #7: Future Arctic sea ice change (Arctic)
+
+
+*Description*: The Coupled Model Intercomparison Project is a framework within which a number of research centres produce predictions of the future evolution of the climate. Many climate centres use an ensemble approach, in which they produce several simulations for each scenario, using the same model configuration. By comparing these multiple simulations (“the ensemble"), we can estimate the probability that the climate will evolve in a certain way.
+
+*Data*: Google host a part of these data via their Public Datasets programme (https://cloud.google.com/blog/products/data-analytics/new-climate-model-data-now-google-public-datasets).
+
+This dataset can be accessed this way:
+
+	df = pd.read_csv('https://storage.googleapis.com/cmip6/cmip6-zarr-consolidated-stores.csv')
+	df_ssh = df.query("activity_id=='ScenarioMIP' & table_id == 'Omon' & variable_id == 'zos' & institution_id == 'IPSL'")
+	gcs = gcsfs.GCSFileSystem(token='anon')
+	zstore = df_ssh.zstore.values[-1]
+	mapper = gcs.get_mapper(zstore)
+	ds = xr.(mapper, consolidated=True)
