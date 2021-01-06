@@ -26,6 +26,7 @@ dependencies:
   - nodejs
   - scikit-image
   - scikit-learn
+  - seaborn
   - dask-ml
   - pip
   - pip:
