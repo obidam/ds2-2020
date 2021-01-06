@@ -6,9 +6,9 @@
 
 This is the Pangeo Practice Session. 
 
-Class will take place in room BR-B03-034A at IMT-A, January 7th, from 15h00 to 17h45.
+Class will take place online on Discord channel, January 6th, from 13h30 to 16h15.
 
-Start here with a couple of notebooks to learn the possible tools that will allow you to tackle (big) data mining in oceanography. 
+Start here with a couple of notebooks to learn the possible tools that will allow you to tackle (big) data mining in oceanography.
 
 Recommended order:
 
@@ -21,7 +21,7 @@ Recommended order:
 
 ### Exploratory Statistics
 
-Class will take place in room BR-B03-034A at IMT-A, January 10th, from 13h30 to 16h15.
+Class will take place online on Discord channel, January 12nd, from 13h30 to 16h15.
 
 Recommended order:
 

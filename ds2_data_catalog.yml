@@ -20,6 +20,15 @@ sources:
                 project: 'ds2class-2021'
                 token: anon
                 access: read_only
+    isas15_temp_natl:
+      description: North Atlantic ISAS15 temperature time series
+      driver: zarr
+      args:
+        urlpath: 'gcs://argodata/gridded/ISAS15_TEMP_NATL.zarr'
+        storage_options:
+          project: 'argo-france'
+          token: anon
+          access: read_only
     sea_surface_height:
         description: sea-surface altimetry data from The Copernicus Marine Environment
         metadata:
