@@ -9,6 +9,7 @@ dependencies:
   - dask-kubernetes
   - gcsfs
   - zarr
+  - cartopy
   - matplotlib
   - numcodecs
   - python-blosc
