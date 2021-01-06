@@ -8,7 +8,7 @@ Home of the 2021 ISblue Big Data & Cloud Computing for Oceanography class (IMT-A
 - Guillaume Maze - Guillaume.Maze@ifremer.fr
 - Carlos Granero Belinchon - carlos.granero-belinchon@imt-atlantique.fr
 
-This repo is a place holder for the class practice/tuto session and for projects developed by students.
+This repo is a place holder for the class practice session and for projects developed by students.
 
 ## Content
 

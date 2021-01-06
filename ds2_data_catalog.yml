@@ -12,33 +12,33 @@ sources:
           token: anon
           access: read_only
     en4:
-        description: Global EN4 time series
-        driver: zarr
-        args:
-            urlpath: 'gcs://ds2data/EN.4.2.1.f.analysis.g10.zarr'
-            storage_options:
-                project: 'ds2class-2021'
-                token: anon
-                access: read_only
+      description: Global EN4 time series
+      driver: zarr
+      args:
+        urlpath: 'gcs://ds2data/EN.4.2.1.f.analysis.g10.zarr'
+        storage_options:
+          project: 'ds2class-2021'
+          token: anon
+          access: read_only
     isas15_temp_natl:
       description: North Atlantic ISAS15 temperature time series
       driver: zarr
       args:
-        urlpath: 'gcs://argodata/gridded/ISAS15_TEMP_NATL.zarr'
+        urlpath: 'gcs://ds2data/ISAS15_TEMP_NATL.zarr'
         storage_options:
-          project: 'argo-france'
+          project: 'ds2class-2021'
           token: anon
           access: read_only
     sea_surface_height:
-        description: sea-surface altimetry data from The Copernicus Marine Environment
-        metadata:
-            url: 'http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&view=details&product_id=SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047'
-            tags:
-                - ocean
-                - satellite
-        driver: zarr
-        args:
-          urlpath: gs://pangeo-cmems-duacs
-          consolidated: True
-          storage_options:
-            requester_pays: True
+      description: sea-surface altimetry data from The Copernicus Marine Environment
+      metadata:
+        url: 'http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&view=details&product_id=SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047'
+        tags:
+          - ocean
+          - satellite
+      driver: zarr
+      args:
+        urlpath: gs://pangeo-cmems-duacs
+        consolidated: True
+        storage_options:
+          requester_pays: True
