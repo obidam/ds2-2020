@@ -11,6 +11,15 @@ sources:
           project: 'ds2class-2021'
           token: anon
           access: read_only
+    argo_global_homogeneous_sdl:
+      description: Global 0-1500m Standard Depth Level Argo profiles (homogeneously distributed in space)
+      driver: zarr
+      args:
+        urlpath: 'gcs://opendata_bdo2020/GLOB_HOMOGENEOUS_variables.zarr'
+        storage_options:
+          project: 'alert-ground-261008'
+          token: anon
+          access: read_only
     en4:
       description: Global EN4 time series
       driver: zarr
@@ -27,6 +36,15 @@ sources:
         urlpath: 'gcs://ds2data/ISAS15_TEMP_NATL.zarr'
         storage_options:
           project: 'ds2class-2021'
+          token: anon
+          access: read_only
+    argo_global_vertical_mean:
+      description: Global Argo profiles vertical mean temperature
+      driver: zarr
+      args:
+        urlpath: 'gcs://opendata_bdo2020/Global_Argo_VerticalMean_Temperature.zarr'
+        storage_options:
+          project: 'alert-ground-261008'
           token: anon
           access: read_only
     sea_surface_height:

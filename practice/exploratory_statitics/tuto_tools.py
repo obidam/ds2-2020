@@ -63,11 +63,11 @@ def vrangec(V):
 
 # Plotting functions
 
-def create_map(extent=[-180, 180, -70, 70]):
+def create_map(extent=[-180, 180, -70, 70], dpi=200, figsize=(12,4)):
     """Create a figure with a map
         Return fig, proj, ax
     """
-    fig = plt.figure(figsize=(12,4),dpi=200)
+    fig = plt.figure(figsize=figsize, dpi=dpi)
     proj = ccrs.PlateCarree()
     ax = fig.add_axes([0,0,1,1],projection=proj)
     ax.set_extent(extent, crs=proj)
@@ -75,10 +75,10 @@ def create_map(extent=[-180, 180, -70, 70]):
         linewidth=0.5, color=[0.6]*3, alpha=0.5, linestyle='--')
     # gl.xlocator = mticker.FixedLocator(np.linspace(-180,180,360/10+1))
     # gl.ylocator = mticker.FixedLocator(np.linspace(-90,90,180/5+1))
-    gl.xlocator = mticker.FixedLocator(np.linspace(-180,180,360/30+1))
-    gl.ylocator = mticker.FixedLocator(np.linspace(-90,90,180/20+1))
-    gl.xlabels_top = False
-    gl.ylabels_right = False
+    gl.xlocator = mticker.FixedLocator(np.linspace(-180,180,int(360/30)+1))
+    gl.ylocator = mticker.FixedLocator(np.linspace(-90,90,int(180/20)+1))
+    gl.top_labels = False
+    gl.right_labels = False
     ax.add_feature(cfeature.LAND, facecolor=[0.7]*3)
     ax.add_feature(cfeature.COASTLINE)
     return fig, proj, ax
@@ -235,7 +235,7 @@ def sns_plot2d_GMM_marginals(df, gmm):
     g.plot_joint(sns_GMMellipse, gmm=gmm, main_axes=True, linewidth=3, colors=colors)
 
     # g.ax_joint.legend(prop={'weight': 'bold', 'size': 12}, loc='upper left')
-    g.ax_marg_x.legend(prop={'weight': 'bold', 'size': 12}, loc='upper left')
+    g.ax_marg_x.legend(prop={'weight': 'bold', 'height': 12}, loc='upper left')
 
     return g
 
