@@ -116,7 +116,7 @@ def plot_GMMellipse(gmm,ik,col,ax,label="",std=[1],main_axes=True,**kwargs):
         This is my routine, simply working with a matplotlib plot method
         I also added the possibility to plot the main axes of the ellipse
     """
-    id = [0,1] # Dimensions id
+    id = [0, 1] # Dimensions id
     covariances = gmm.covariances_[ik][(id[0],id[0],id[1],id[1]),(id[0],id[1],id[0],id[1])].reshape(2,2)
     d, v = np.linalg.eigh(covariances) # eigenvectors have unit length
     d = np.diag(d)
