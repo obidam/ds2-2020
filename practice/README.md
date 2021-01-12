@@ -23,15 +23,10 @@ Recommended order:
 
 Class will take place online on Discord channel, January 12nd, from 13h30 to 16h15.
 
-Recommended order:
-
-1. Clustering: 
-[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%200&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-0.ipynb)
-
-[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%201&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-1.ipynb)
-
-[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%202&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-2.ipynb)
-
-[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%203&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-3-PCM.ipynb)
-
-1. PCA: [![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Tuto%20PCA&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/PCA-Tuto-0.ipynb)
+| Practice | Open |
+|------------|:--------------|
+| Clustering - Tuto 0 | [![Colab](https://img.shields.io/static/v1?label=Google&message=Open+with+Colab&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-0.ipynb) [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+with+Pangeo&color=blue)](https://binder.pangeo.io/v2/gh/obidam/ds2-2020/ds2-2021?filepath=practice%2Fexploratory_statitics%2FClustering-Tuto-0.ipynb) |
+| Clustering - Tuto 1 | [![Colab](https://img.shields.io/static/v1?label=Google&message=Open+with+Colab&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-1.ipynb) [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+with+Pangeo&color=blue)](https://binder.pangeo.io/v2/gh/obidam/ds2-2020/ds2-2021?filepath=practice%2Fexploratory_statitics%2FClustering-Tuto-1.ipynb) |
+| Clustering - Tuto 2 | [![Colab](https://img.shields.io/static/v1?label=Google&message=Open+with+Colab&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-2.ipynb) [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+with+Pangeo&color=blue)](https://binder.pangeo.io/v2/gh/obidam/ds2-2020/ds2-2021?filepath=practice%2Fexploratory_statitics%2FClustering-Tuto-2.ipynb) |
+| Clustering - Tuto 3 (PCM)| [![Colab](https://img.shields.io/static/v1?label=Google&message=Open+with+Colab&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-3-PCM.ipynb) [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+with+Pangeo&color=blue)](https://binder.pangeo.io/v2/gh/obidam/ds2-2020/ds2-2021?filepath=practice%2Fexploratory_statitics%2FClustering-Tuto-3-PCM.ipynb) |
+| PCA - Tuto 0 (CMIP6) | [![Colab](https://img.shields.io/static/v1?label=Google&message=Open+with+Colab&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/PCA-Tuto-0.ipynb) [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+with+Pangeo&color=blue)](https://binder.pangeo.io/v2/gh/obidam/ds2-2020/ds2-2021?filepath=practice%2Fexploratory_statitics%2FPCA-Tuto-0.ipynb) |
