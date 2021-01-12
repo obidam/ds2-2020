@@ -25,13 +25,13 @@ Class will take place online on Discord channel, January 12nd, from 13h30 to 16h
 
 Recommended order:
 
-1. PCA: 
-    [![Open PCA tuto in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-1.ipynb
-)
+1. Clustering: 
+[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%200&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-0.ipynb)
 
-1. Clustering:
- [![Open Clustering tuto 0 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds-2021/practice/exploratory_statistics/Clustering-Tuto-0.ipynb)
- [![Open Clustering tuto 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds-2021/practice/exploratory_statistics/Clustering-Tuto-1.ipynb)
- [![Open Clustering tuto 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds-2021/practice/exploratory_statistics/Clustering-Tuto-2.ipynb)
- [![Open Clustering tuto 3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds-2021/practice/exploratory_statistics/Clustering-Tuto-3.ipynb)
+[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%201&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-1.ipynb)
 
+[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%202&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-2.ipynb)
+
+[![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Clustering%203&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/Clustering-Tuto-3-PCM.ipynb)
+
+1. PCA: [![](https://img.shields.io/static/v1?label=Open%20in%20colab&message=Tuto%20PCA&color=blue&style=plastic&logo=google-colab)](https://colab.research.google.com/github/obidam/ds2-2020/blob/ds2-2021/practice/exploratory_statitics/PCA-Tuto-0.ipynb)
