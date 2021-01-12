@@ -235,7 +235,7 @@ def sns_plot2d_GMM_marginals(df, gmm):
     g.plot_joint(sns_GMMellipse, gmm=gmm, main_axes=True, linewidth=3, colors=colors)
 
     # g.ax_joint.legend(prop={'weight': 'bold', 'size': 12}, loc='upper left')
-    g.ax_marg_x.legend(prop={'weight': 'bold', 'height': 12}, loc='upper left')
+    g.ax_marg_x.legend(prop={'weight': 'bold', 'size': 12}, loc='upper left')
 
     return g
 
